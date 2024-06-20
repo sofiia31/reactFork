@@ -64,7 +64,8 @@ function transform(file, enc, cb) {
     cb(null);
   });
 }
-
+const outputToFile = true; 
+const outputFilePath = 'warnings.json'; 
 
 gs([
   'packages/**/*.js',
